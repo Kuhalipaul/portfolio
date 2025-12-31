@@ -9,6 +9,34 @@ Currently, two official plugins are available:
 
 ## React Compiler
 
+# 🌐 Personal Portfolio Website
+
+A modern, responsive personal portfolio website built to showcase my skills, projects, and professional experience as a **Frontend Developer**.
+
+## 🚀 Live Demo
+🔗 **Portfolio Live Link:**  
+https://portfolio-three-flame-21.vercel.app/
+
+## 📌 Features
+
+- Responsive design (mobile, tablet & desktop)
+- Clean and modern UI
+- Project showcase section
+- Skills & experience highlights
+- Contact section for easy reach
+- Fast performance with optimized assets
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **Language:** JavaScript (ES6+)
+- **Deployment:** Vercel
+
+---
+
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
 ## Expanding the ESLint configuration
