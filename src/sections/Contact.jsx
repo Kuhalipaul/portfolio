@@ -58,7 +58,9 @@ const Contact = () => {
 						<div className="social-link">
 							<h2>Phone</h2>
 							<div className="w-full h-px my-2 bg-white/30" />
-							<p className="text-xl lowercase md:text-2xl lg:text-3xl">+91 89106 63489</p>
+							<a href="tel:+918910663489">
+								<p className="text-xl lowercase md:text-2xl lg:text-3xl">+91 89106 63489</p>
+							</a>
 						</div>
 						<div className="social-link">
 							<h2>Social Media</h2>
