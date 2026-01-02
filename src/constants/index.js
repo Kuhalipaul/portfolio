@@ -1,173 +1,96 @@
 // index.js
 export const servicesData = [
 	{
-		title: 'FullStack Development',
+		title: 'Frontend Development',
 		description:
-			'Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.',
+			'I build fast, responsive, and scalable web interfaces using modern frontend technologies, focusing on clean UI, performance, and maintainable code.',
 		items: [
 			{
-				title: 'Backend Engineering',
-				description: '(REST/GraphQL APIs, Microservices, Auth Systems)',
+				title: 'React & Next.js Apps',
+				description: '(SPA, SSR, dynamic routing, reusable components)',
 			},
 			{
-				title: 'Frontend Excellence',
-				description: '(React, Vue, TypeScript, Interactive UI/UX)',
+				title: 'UI Engineering',
+				description: '(Tailwind CSS, Material UI, responsive layouts)',
 			},
 			{
-				title: 'Database Design',
-				description: '(SQL/NoSQL Optimization, Scalable Structures)',
+				title: 'Performance Optimization',
+				description: '(Lazy loading, memoization, Lighthouse improvements)',
 			},
 		],
 	},
 	{
-		title: 'DevOps & Cloud Solutions',
+		title: 'Backend Integration',
 		description:
-			"Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+			'I work closely with backend systems to integrate secure APIs and manage application data efficiently.',
 		items: [
 			{
-				title: 'CI/CD Pipelines',
-				description: '(GitHub Actions, Docker, Kubernetes)',
+				title: 'Node.js APIs',
+				description: '(REST APIs, authentication basics)',
 			},
 			{
-				title: 'Server Management ',
-				description: '(Linux, Nginx, Load Balancing)',
+				title: 'Database Handling',
+				description: '(MongoDB, Firebase)',
 			},
 			{
-				title: 'Performance Tuning',
-				description: '(Caching, Compression, Lighthouse 90+ Scores)',
+				title: 'API Integration',
+				description: '(Axios, Fetch, third-party APIs)',
 			},
 		],
 	},
 	{
-		title: 'Security & Optimization',
-		description:
-			'Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.',
+		title: 'Dashboard & Admin Panels',
+		description: 'I develop data-driven dashboards and admin panels used in real business workflows.',
 		items: [
 			{
-				title: 'Code Audits',
-				description: '(Refactoring, Tech Debt Cleanup)',
+				title: 'HRMS & Admin Systems',
+				description: '(Employee management, tables, filters, charts)',
 			},
 			{
-				title: 'Pen Testing',
-				description: '(Vulnerability Assessments)',
+				title: 'Role-Based UI',
+				description: '(Protected routes, permissions)',
 			},
 			{
-				title: 'SEO Tech Stack',
-				description: '(SSR, Metadata, Structured Data)',
+				title: 'Data Visualization',
+				description: '(Charts, analytics, reports)',
 			},
 		],
 	},
 	{
-		title: 'Web & Mobile Apps',
-		description:
-			'A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.',
+		title: 'Web Applications',
+		description: 'I create production-ready web applications with real-world use cases.',
 		items: [
 			{
-				title: 'Cross-Platform Apps',
-				description: '(Single codebase for iOS/Android/Web)',
+				title: 'Business Websites',
+				description: '(Company sites, landing pages)',
 			},
 			{
-				title: 'PWAs',
-				description: '(Offline mode, Push Notifications)',
+				title: 'E-commerce Frontends',
+				description: '(Product listing, cart UI, checkout flows)',
 			},
 			{
-				title: 'E-Commerce',
-				description: '(Checkout flows, Payment Gateways, Inventory APIs)',
+				title: 'EdTech Platforms',
+				description: '(Dashboards, mock tests, learning modules)',
 			},
 		],
 	},
-];
-export const projects = [
 	{
-		id: 1,
-		name: 'Mobile Accessories E-commerce',
+		title: 'Deployment & CI/CD',
 		description:
-			'An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.',
-		href: '',
-		image: '/assets/projects/mobile-accessories-store.jpg',
-		bgImage: '/assets/backgrounds/blanket.jpg',
-		frameworks: [
-			{ id: 1, name: 'React' },
-			{ id: 2, name: 'Next.js' },
-			{ id: 3, name: 'Node.js' },
-			{ id: 4, name: 'MongoDB' },
-			{ id: 5, name: 'Tailwind CSS' },
+			'I use modern CI/CD workflows to automate builds and deployments, ensuring faster releases and stable production builds.',
+		items: [
+			{
+				title: 'GitHub Actions',
+				description: '(Build checks, auto-deploy on push)',
+			},
+			{
+				title: 'Vercel Deployments',
+				description: '(Preview & production deployments)',
+			},
+			{
+				title: 'Environment Management',
+				description: '(Env variables, build configurations)',
+			},
 		],
 	},
-	{
-		id: 2,
-		name: 'Plant Shop E-commerce',
-		description:
-			'An online store specializing in rare and decorative plants with a clean, user-friendly interface.',
-		href: '',
-		image: '/assets/projects/plant-shop.jpg',
-		bgImage: '/assets/backgrounds/curtains.jpg',
-		frameworks: [
-			{ id: 1, name: 'React' },
-			{ id: 2, name: 'Next.js' },
-			{ id: 3, name: 'Stripe API' },
-			{ id: 4, name: 'Tailwind CSS' },
-		],
-	},
-	{
-		id: 3,
-		name: 'Apple Tech Marketplace',
-		description: 'An e-commerce platform for Apple products and accessories with deals and category filtering.',
-		href: '',
-		image: '/assets/projects/apple-tech-store.jpg',
-		bgImage: '/assets/backgrounds/map.jpg',
-		frameworks: [
-			{ id: 1, name: 'Blazor' },
-			{ id: 2, name: 'ASP.NET Core' },
-			{ id: 3, name: 'SQL Server' },
-			{ id: 4, name: 'Bootstrap' },
-		],
-	},
-	{
-		id: 4,
-		name: 'Electronics & Gadgets Store',
-		description:
-			'A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.',
-		href: '',
-		image: '/assets/projects/electronics-store.jpg',
-		bgImage: '/assets/backgrounds/poster.jpg',
-		frameworks: [
-			{ id: 1, name: 'Vue.js' },
-			{ id: 2, name: 'Laravel' },
-			{ id: 3, name: 'MySQL' },
-			{ id: 4, name: 'SCSS' },
-		],
-	},
-	{
-		id: 5,
-		name: 'Home Decor Marketplace',
-		description: 'A curated collection of designer home decor items, including furniture and artisan vases.',
-		href: '',
-		image: '/assets/projects/home-decor-store.jpg',
-		bgImage: '/assets/backgrounds/table.jpg',
-		frameworks: [
-			{ id: 1, name: 'Angular' },
-			{ id: 2, name: 'Firebase' },
-			{ id: 3, name: 'GraphQL' },
-			{ id: 4, name: 'Material UI' },
-		],
-	},
-	{
-		id: 6,
-		name: 'Digital Game Store',
-		description: 'A gaming platform featuring discounted titles, top sellers, and genre-based browsing.',
-		href: '',
-		image: '/assets/projects/game-store.jpg',
-		bgImage: '/assets/backgrounds/curtains.jpg',
-		frameworks: [
-			{ id: 1, name: 'Svelte' },
-			{ id: 2, name: 'Node.js' },
-			{ id: 3, name: 'MongoDB' },
-			{ id: 4, name: 'Chakra UI' },
-		],
-	},
-];
-export const socials = [
-	{ name: 'LinkedIn', href: 'https://www.linkedin.com/in/kuhalipaul/' },
-	{ name: 'GitHub', href: 'https://github.com/Kuhalipaul' },
 ];
